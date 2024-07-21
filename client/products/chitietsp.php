@@ -36,7 +36,7 @@ if (isset($_SESSION['user'])) {
                 <div class="product-details-content">
                     <h2>' . $product_name . '</h2>
                     <div class="product-details-price">
-                        <span>' . $product_price . '</span>
+                        <span>' . $product_priceoriginal_price . '</span>
                         
                     </div>
                     <div class="pro-details-rating-wrap">
@@ -71,7 +71,7 @@ if (isset($_SESSION['user'])) {
                         <input type="hidden" name="id" value="' . $product_id . '">
                         <input type="hidden" name="name" value="' . $product_name . '">
                         <input type="hidden" name="img" value="' . $product_img . '">
-                        <input type="hidden" name="price" value="' . $product_price . '">
+                        <input type="hidden" name="price" value="' . $product_priceoriginal_price . '">
                     </form>
                     <div class="pro-details-social">
                         <ul>
@@ -262,10 +262,10 @@ if (isset($_SESSION['user'])) {
                     <div class="product-container" id="productContainer" >
                     <!-- Repeat this block for each of the four products -->
                     <div class="product-card" style="flex: none;margin-right: 20px;width: 250px;    height: 300px;background-color: #fff;border: 1px solid #ddd;border-radius: 5px;overflow: hidden;">
-                        <img src="upload/' . $value['product_img'] . '" alt="Product Image 1" style="  width: 100%;display: block;">
+                        <img src="upload/' . $value['product_img'] . '" alt="Product Image 1" style="width: 242px;height: 200px;display: block;margin-top: 12px;">
                     <div class="product-info" style="padding: 10px;">
                         <h3 style="  margin: 0;font-size: 1em;">' . $value['product_name'] . '</h3>
-                        <p class="price" style="  color: red;font-weight: bold;">' . $value['product_price'] . '</p>
+                        <p class="price" style="  color: red;font-weight: bold;">' . $value['product_priceoriginal_price'] . '</p>
                         <!-- Include your star rating here -->
                     </div>
                 </div>

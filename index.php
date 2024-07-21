@@ -23,6 +23,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
             if (isset($_POST['listok']) && ($_POST['listok'] != 0)) {
                 $kyw = $_POST['kyw'];
                 $iddm = $_POST['iddm'];
+                
             } else {
                 $kyw = "";
                 $iddm = 0;
@@ -69,7 +70,7 @@ if (isset($_GET['act']) && ($_GET['act'] != "")) {
 
         case "register":
             if (isset($_POST['addaccount']) && ($_POST['addaccount'])) {
-                $user = $_POST['nam'] ?? '';
+                $user = $_POST['username'] ?? '';
                 $password = $_POST['password'] ?? '';
                 $confirm_password = $_POST['confirm_password'] ?? '';
                 $email = $_POST['email'] ?? '';

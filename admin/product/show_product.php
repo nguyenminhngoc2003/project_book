@@ -5,7 +5,7 @@
         <form action="index.php?act=listsp" method="POST" enctype="multipart/form-data">
             <div class="row2 mb10 formds_loai">
 
-                <input type="text" name="kyw" class="search-input" style=" margin: 0 0 10px 1193px; ">
+                <input type="text" name="kyw" class="search-input" style="margin: 0px 0 10px 1114px; ">
                 <select name="iddm" class="search-input">
                     <option value="0">tất cả</option>
                     <?php
@@ -23,7 +23,8 @@
             <tr>
                 <th style="     width: 448px; ">TÊN SẢN PHẨM</th>
                 <th>Hình</th>
-                <th>Giá</th>
+                <th>Giá gốc</th>
+                <th>Giá sale</th>
                 <th>Mô tả</th>
                 <th>Số lượng</th>
                 <th>Lượt Xem</th>
@@ -47,7 +48,8 @@
                 echo '<tr>
        <td>' . $product_name . '</td>
        <td style="width: 230px;">' . $hinh . '</td>
-       <td>' . $product_price . '</td>
+       <td>' . $product_priceoriginal_price . '</td>
+       <td>' . $product_sale_price . '</td>
        <td>' . $product_content . '</td>
        <td>' . $product_quantity . '</td>
        <td>' . $product_view . '</td>

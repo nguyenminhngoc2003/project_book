@@ -22,7 +22,7 @@
                 <form action="index.php?act=sanpham" method="POST" enctype="multipart/form-data">
                     <div class="row2 mb10 formds_loai">
 
-                        <input type="text" name="kyw" class="search-input" placeholder="Nhập sản phẩm cần tìm..." style=" margin: 0 0 17px 750px; ">
+                        <input type="text" name="kyw" class="search-input" placeholder="Nhập sản phẩm cần tìm..." style=" margin: 0 0 17px 715px; ">
                         <select name="iddm" class="search-input">
                             <option value="0">tất cả</option>
                             <?php
@@ -44,6 +44,7 @@
                                      foreach($spnew as $sp){
                                          extract($sp);
                                          $hinh= $img_path.$product_img;
+                                         $hinhHover= $img_path.$product_img_last;
                                          $link="index.php?act=sanphamct&idsp=$product_id";
                                          $wistlist="index.php?act=addwishlist&id=$product_id";
                                         //  if(($i==2)||($i==5)||($i==8)){
@@ -57,7 +58,7 @@
                             <div class="product-img">
                                 <a href="'.$link.'">
                                     <img class="default-img" src="'.$hinh.'" alt="">
-                                    <img class="hover-img" src="upload/hover-imga9.jpg" alt="">
+                                    <img class="hover-img" src="'.$hinhHover.'" alt="">
                                 </a>
                                 <span class="pink">-10%</span>
                                 <div class="product-action">
@@ -74,7 +75,7 @@
                             </div>
                             <div class="product-content text-center">
                                
-                                <h3><a href="index.php?act=sanphamct&id">'.$product_name.' </a></h3>
+                                <h3><a href="'.$link.'">'.$product_name.' </a></h3>
                                 <div class="product-rating"  >
                                     <i class="fa fa-star-o yellow"></i>
                                     <i class="fa fa-star-o yellow"></i>
@@ -84,8 +85,8 @@
                                 </div>
                                 <div class="product-price">
                                     
-                                    <span>'.$product_price.'</span>
-                                    <span class="old">'.$product_price.'</span>
+                                    <span>'.$product_priceoriginal_price.'</span>
+                                    <span class="old">'.$product_sale_price.'</span>
                                 </div>
                             </div>
                         </div>

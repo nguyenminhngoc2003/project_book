@@ -1,4 +1,4 @@
-<div class="container mt-4">
+<div class="container mt-4" >
     <form class="needs-validation" name="fromthanhtoan" method="post" action="index.php?act=billcomfim">
         <div class="breadcrumb-area pt-35 pb-35 bg-gray-3 mb-5">
             <div class="container">
@@ -109,7 +109,7 @@
                     </div>                    
                     <div class="custom-control custom-radio">
                         <input id="httt-2" name="pttt" type="radio" class="custom-control-input" required="" value="2" style="     height: auto;     width: auto; ">
-                        <label class="custom-control-label" for="httt-2">Chuyển khoản ngân hàng(đang bảo trì)</label>
+                        <label class="custom-control-label" for="httt-2">Chuyển khoản ngân hàng</label>
                     </div>
                 </div>
                 <hr class="mb-4">

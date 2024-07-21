@@ -5,7 +5,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php?act=home">
                 <div class="sidebar-brand-text mx-3">Admin</div>
             </a>
 
@@ -14,7 +14,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="index.php?act=home">
                     <span>Dashboard</span></a>
             </li>
 
@@ -26,7 +26,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link collapsed" href="index.php?act=listdm" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
-                    <span>Hãng sản xuất</span>
+                    <span>Loại Sản Phẩm</span>
                 </a>
             </li>
 

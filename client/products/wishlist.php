@@ -13,6 +13,7 @@
                                      foreach($dssp as $sp){
                                          extract($sp);
                                          $hinh= $img_path.$product_img;
+                                         $hinhHover= $img_path.$product_img_last;
                                          $link="index.php?act=sanphamct&idsp=$product_id";
                                          $wistlist="index.php?act=addwishlistidsp=$product_id";
                                         //  if(($i==2)||($i==5)||($i==8)){
@@ -26,7 +27,7 @@
                             <div class="product-img">
                                 <a href="'.$link.'">
                                     <img class="default-img" src="'.$hinh.'" alt="">
-                                    <img class="hover-img" src="upload/hover-imga9.jpg" alt="">
+                                    <img class="hover-img" src="'.$hinhHover.'" alt="">
                                 </a>
                                 <span class="pink">-10%</span>
                                 <div class="product-action">

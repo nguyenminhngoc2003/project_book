@@ -7,15 +7,15 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-12 col-sm-6">
                             <div class="slider-content slider-animated-1">
                                 <h3 class="animated">Sản phẩm HOT 2023</h3>
-                                <h1 class="animated">Laptop Dell Vostro<br> 3400 </h1>
+                                <h1 class="animated">Nhà Giả Kim <br> (Tái Bản 2020) </h1>
                                 <div class="slider-btn btn-hover">
-                                    <a class="animated" href="shop.html">MUA NGAY</a>
+                                    <a class="animated" href="index.php?act=sanphamct&idsp=1">MUA NGAY</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-12 col-sm-6" style="     margin-top: 37px; ">
                             <div class="slider-single-img slider-animated-1">
-                                <img class="animated" src="assets/img/slider/single-slide-1.png" alt="" style="    margin: 0 33px 76px; ">
+                                <img class="animated" src="assets/img/slider/book_slide_nobackground.png" alt="" style="margin: 0px 201px 76px;width: 500px;">
                             </div>
                         </div>
                     </div>
@@ -27,15 +27,15 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-12 col-sm-6">
                             <div class="slider-content slider-animated-1" style="padding: 0px;">
                                 <h3 class="animated">Sản phẩm HOT</h3>
-                                <h1 class="animated">Lenovo ThinkBook<br> 14 G3 ACL</h1>
+                                <h1 class="animated">Chưa Kịp Lớn Đã <br> Trưởng Thành</h1>
                                 <div class="slider-btn btn-hover">
-                                    <a class="animated" href="shop.html">MUA NGAY</a>
+                                    <a class="animated" href="index.php?act=sanphamct&idsp=7">MUA NGAY</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-12 col-sm-6">
                             <div class="slider-single-img slider-animated-1">
-                                <img class="animated" src="assets/img/slider/single-slide-hm1-2.png" alt="" style="width: 600px;height: 397px;margin-left: 101px;">
+                                <img class="animated" src="assets/img/slider/background_slide_1.png" alt="" style="width: 600px;height: 460px;margin-left: 101px;">
                             </div>
                         </div>
                     </div>

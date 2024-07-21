@@ -6,18 +6,18 @@
         <div class="row align-items-center">
             <div class="col-md-6" id="pading" style="     padding-left: 188px; ">
                 <div class="banner-content" style="text-align: center;padding: 32px;">
-                    <h1>Giảm giá 50%</h1>
-                    <h4>Lenovo ThinkBook 14 G3 ACL R3 5300U (21A200RWVN)</h4>
-                    <del>15.990.000₫</del>
-                    <h4>7.990.000₫</h4>
+                    <h1>Giảm giá 38%</h1>
+                    <h2>Cây Cam Ngọt Của Tôi</h2>
+                    <del>81.000 ₫</del> <span>108.000 ₫</span>
+                    
                     <div class="slider-btn btn-hover" style="margin-top: 34px; ">
-                        <a class="animated bo" href="index.php?act=sanphamct&idsp=20" style="     margin-top: 20px;     border: 1px solid;     padding: 8px; ">MUA NGAY</a>
+                        <a class="animated bo" href="index.php?act=sanphamct&idsp=1" style="width: 500px;height: 329px;margin: 54px;border: 1px solid;padding: 5px;">MUA NGAY</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="ban-img">
-                    <img src="upload/anh-trong-suot-3.png" alt="" style="width: 500px;height: 310px;margin: 54px;">
+                    <img src="upload/book_non.png" alt="" style="width: 500px;height: 310px;margin: 54px;">
                 </div>
             </div>
         </div>
@@ -33,13 +33,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="blog-wrap mb-30 scroll-zoom">
                     <div class="blog-img">
-                        <a href="index.php?act=sanphamct&idsp=13"><img src="upload/a6.jpg" alt=""></a>
-                        <span class="purple">-20%</span>
+                        <a href="index.php?act=sanphamct&idsp=1"><img src="upload/book_1.jpg" alt="" style="     width: 357px; "></a>
+                        <span class="purple">-28%</span>
                     </div>
                     <div class="blog-content-wrap">
                         <div class="blog-content text-center">
-                            <h3><a href="index.php?act=sanphamct&idsp=13">HP ProOne 440 G9 AIO i7 <br> 12700T 23.8 inch</a></h3>
-                            <span> <a href="index.php?act=sanphamct&idsp=13">24.390.000₫</a></span>
+                            <h3><a href="index.php?act=sanphamct&idsp=1">Cây Cam Ngọt Của Tôi <br> 12700T 23.8 inch</a></h3>
+                            <span> <a href="index.php?act=sanphamct&idsp=1">81.000 ₫</a></span>
                         </div>
                     </div>
                 </div>
@@ -47,13 +47,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="blog-wrap mb-30 scroll-zoom">
                     <div class="blog-img">
-                        <a href="index.php?act=sanphamct&idsp=12"><img src="upload/a8.jpg" alt=""></a>
-                        <span class="pink">-20%</span>
+                        <a href="index.php?act=sanphamct&idsp=2"><img src="upload/book_2.jpg" alt="" style="     width: 357px; "></a>
+                        <span class="pink">-22%</span>
                     </div>
                     <div class="blog-content-wrap">
                         <div class="blog-content text-center">
-                            <h3><a href="index.php?act=sanphamct&idsp=12">HP AIO ProOne 240 G9 i3 <br> 1215U 23.8 inch</a></h3>
-                            <span><a href="index.php?act=sanphamct&idsp=12">15.390.000₫</a></span>
+                            <h3><a href="index.php?act=sanphamct&idsp=2">Nhà Giả Kim (Tái Bản 2020) <br> 1215U 23.8 inch</a></h3>
+                            <span><a href="index.php?act=sanphamct&idsp=2">79.000₫</a></span>
                         </div>
                     </div>
                 </div>
@@ -61,13 +61,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="blog-wrap mb-30 scroll-zoom">
                     <div class="blog-img">
-                        <a href="index.php?act=sanphamct&idsp=15"><img src="upload/a10.jpg" alt=""></a>
-                        <span class="purple">-30%</span>
+                        <a href="index.php?act=sanphamct&idsp=3"><img src="upload/book_3.jpg" alt="" style="     width: 357px; "></a>
+                        <span class="purple">-33%</span>
                     </div>
                     <div class="blog-content-wrap">
                         <div class="blog-content text-center">
-                            <h3><a href="index.php?act=sanphamct&idsp=15">Asus Vivobook X415EA i3 5300U (21A200RWVN)<br></a></h3>
-                            <span><a href="index.php?act=sanphamct&idsp=15">15.060.000₫</a></span>
+                            <h3><a href="index.php?act=sanphamct&idsp=3">Nghệ Thuật Tiểu Thuyết<br></a></h3>
+                            <span><a href="index.php?act=sanphamct&idsp=3">101.400₫</a></span>
                         </div>
                     </div>
                 </div>

@@ -29,7 +29,7 @@
                         <nav>
                             <ul>
                                 <li><a href="index.php">Trang chủ </a></li>
-                                <li><a href="shop.html"> Laptop <i class="fa fa-angle-down"></i> </a>
+                                <li><a href="shop.html"> Nhóm sách <i class="fa fa-angle-down"></i> </a>
                                     <ul class="mega-menu">
                                         <li>
                                             <ul>
@@ -52,9 +52,6 @@
                                         </li>
                                     </ul>
                                 </li>
-                                
-                                <li><a>Phụ kiện</a></li>
-
                                 <li><a href="about.html">Giới thiệu</a></li>
                                 <li><a href="contact.html">Liên hệ</a></li>
                             </ul>
